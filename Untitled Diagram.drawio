@@ -1,1 +1,146 @@
-<mxfile host="app.diagrams.net" modified="2021-06-02T10:40:41.436Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" version="14.6.11" etag="5kcP2Ryo2J6gO9HBCb1a" type="github"><diagram id="Bd8p7XPuqi4960QeBEri">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-02T11:30:42.337Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="7cNafKxAaRvYvqXyaGfG" version="14.6.11" type="github">
+  <diagram id="Bd8p7XPuqi4960QeBEri" name="Page-1">
+    <mxGraphModel dx="954" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LgHAuBDa8la-V3CGH5-M-1" target="LgHAuBDa8la-V3CGH5-M-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-1" value="BFF" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-2" value="secureAcces - secure" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="310" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LgHAuBDa8la-V3CGH5-M-3" target="LgHAuBDa8la-V3CGH5-M-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-9" value="auth header : jwt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LgHAuBDa8la-V3CGH5-M-4">
+          <mxGeometry x="-0.4087" y="-4" relative="1" as="geometry">
+            <mxPoint x="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LgHAuBDa8la-V3CGH5-M-3" target="LgHAuBDa8la-V3CGH5-M-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-3" value="Postman" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-5" value="jwt STS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="330" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-6" value="STS/SPM" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="190" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-8" value="jwt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="150" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LgHAuBDa8la-V3CGH5-M-10" target="LgHAuBDa8la-V3CGH5-M-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-10" value="Con E. Se" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-12" value="secureAcces - secure" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="310" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-13" value="client - BFF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="330" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-14" value="DAP" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="690" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LgHAuBDa8la-V3CGH5-M-17" target="LgHAuBDa8la-V3CGH5-M-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-17" value="BFF" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="390" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-18" value="secureAcces - secure" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="640" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.638;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LgHAuBDa8la-V3CGH5-M-22" target="LgHAuBDa8la-V3CGH5-M-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-22" value="Postman" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-23" value="client - inbound-ap-proxy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="660" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-27" value="Con E. Se" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="660" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-28" value="secureAcces - secure" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="850" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-29" value="client - BFF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="660" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-30" value="DAP" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="250" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LgHAuBDa8la-V3CGH5-M-31" target="LgHAuBDa8la-V3CGH5-M-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.013;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LgHAuBDa8la-V3CGH5-M-31" target="LgHAuBDa8la-V3CGH5-M-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="590" />
+              <mxPoint x="360" y="808" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LgHAuBDa8la-V3CGH5-M-31" target="LgHAuBDa8la-V3CGH5-M-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-31" value="obwallet-inboud-api-proxy" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="250" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-33" value="secureAcces - public /proxy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="205" y="640" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-35" value="https" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="560" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LgHAuBDa8la-V3CGH5-M-36" target="LgHAuBDa8la-V3CGH5-M-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-36" value="APIGW" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-38" value="stage.api.mastercard.com/obwallet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="75" y="380" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LgHAuBDa8la-V3CGH5-M-39" target="LgHAuBDa8la-V3CGH5-M-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-39" value="Insomnia" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-41" value="https/oauth" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="420" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-42" value="pdf route" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="530" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-45" value="x-clientId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="560" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-46" value="jwt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="570" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-47" value="jwt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="520" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-48" value="payment&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="430" y="880" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LgHAuBDa8la-V3CGH5-M-49" value="PSP" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="555" y="890" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
